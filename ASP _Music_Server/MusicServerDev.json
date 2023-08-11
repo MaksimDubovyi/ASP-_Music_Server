@@ -1,0 +1,13 @@
+﻿{
+
+  "ConnectionStrings": { //база даних
+    "PlanetScale": "Server=aws.connect.psdb.cloud;Database=maindb;user=***********;password=**********************;SslMode=VerifyFull;"
+  },
+  "Gmail": { //відправка смс
+    "Host": "smtp.gmail.com",
+    "Port": 587,
+    "Box": "*********@gmail.com",
+    "Key": "***************l",
+    "Ssl": true
+  }
+}
